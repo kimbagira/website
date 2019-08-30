@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{2:function(n,s,t){n.exports=t("hN/g")},"hN/g":function(n,s,t){"use strict";t.r(s),t.d(s,"website",function(){return o});class o{constructor(n){this.name=n}}}},[[2,0]]]);
