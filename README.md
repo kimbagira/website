@@ -34,7 +34,11 @@ https://github.com/kimbagira/website
 
 ## BUGS
  
- no buges
+ *no buges
+ 
+ ## TECHNOLOGIES USED
+ 
+ *angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
 
