@@ -3,22 +3,24 @@
 
 ## AUTHOR
 
-kimbagira sylvie
+*kimbagira sylvie
 
 
 ## DESCRIPTION
 
-you have to enter your name  and click on submit,after submiting you will get the username,profilephoto,repository,repositoryname,description,Date.
+*you have to enter your name  and click on submit,after submiting you will get the username,profilephoto,repository,repositoryname,description,Date.
 
 ## SETUP/REQUIREMENTS
 
-you should clone to get  my code
+*you should clone to get  my code
 
 ## BDD
 
 behaviour
 
-go to the webpage,enter your name
+*go to the webpage,enter your name
+
+input
 
 
 
