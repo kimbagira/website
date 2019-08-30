@@ -8,7 +8,7 @@ kimbagira sylvie
 
 ## DESCRIPTION
 
-you have to enter your name
+you have to enter your name  and click on submit,after submiting you will get the username,profilephoto,repository,repositoryname,description,Date.
 
 
 
