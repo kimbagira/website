@@ -30,7 +30,11 @@ output
 
 ## LINK OF MY REPOSITORY
 
+https://github.com/kimbagira/website
 
+## BUGS
+ 
+ no buges
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
 
