@@ -12,6 +12,9 @@ you have to enter your name  and click on submit,after submiting you will get th
 
 ## SETUP/REQUIREMENTS
 
+you should clone to get  my code
+
+## BDD
 
 
 
