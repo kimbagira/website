@@ -10,6 +10,9 @@ kimbagira sylvie
 
 you have to enter your name  and click on submit,after submiting you will get the username,profilephoto,repository,repositoryname,description,Date.
 
+## SETUP/REQUIREMENTS
+
+
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
