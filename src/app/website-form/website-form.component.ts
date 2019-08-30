@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { User } from '../user';
-import { Repository } from '../repository';
+// import { User } from '../user';
+// import { Repository } from '../repository';
 import { Website } from '../website-class/website';
 import { WebsiteService } from '../website-service/website.service';
 import { WebsiteRequestService } from '../website-http/website-request.service';
+import { website } from 'src/polyfills';
 
 @Component({
   selector: 'app-website-form',
@@ -11,18 +12,24 @@ import { WebsiteRequestService } from '../website-http/website-request.service';
   styleUrls: ['./website-form.component.css']
 })
 export class WebsiteFormComponent implements OnInit {
-web:string;
+userInput:string;
 webb:Website;
-  constructor(websiteService:WebsiteService, private websiteRequestService:WebsiteRequestService) { }
+repo:[];
+  constructor( private websiteRequestService:WebsiteRequestService) { }
 
   ngOnInit() {
     
   }
 funcsubmit(){
-  this.websiteRequestService.websiteRequest(this.web)
+  this.websiteRequestService.userRequest(this.userInput)
 
   this.webb= this.websiteRequestService.website
-  console.log(this.webb)
+  console.log(typeof(this.webb))
+  // console.log(this.userInput)
+  this.websiteRequestService.repoRequest(this.userInput)
+  this.repo=this.websiteRequestService.repos
+  console.log(this.repo)
+
 }
 
 

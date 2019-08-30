@@ -2,10 +2,22 @@
   <form (ngSubmit)='funcsubmit()' #websiteform='ngForm'>
     <div class="form-group">
         <label for="name">Name</label>
-        <input type="text" required class="form-control" id="name"[(ngModel)]="web" name="name">
+        <input type="text" required class="form-control" id="name"[(ngModel)]="userInput" name="name">
         
    </div>
    <button type="submit" class="btn btn-success">submit</button>
   </form>
 </div>
-<!-- {{webb.profilephoto}} -->
+<p>{{webb.username}}</p>
+<p>{{webb.profilephoto}}</p>
+<p>{{webb.date}}</p>
+
+<div *ngFor="let rep of repo">
+<p>{{rep.repository}}</p> 
+<p>{{rep.description}}</p>
+<p>{{rep.repositoryname}}</p>
+</div>
+
+<!-- <p>{{repo.created_at}}</p>
+<p>{{repo.name}}</p>
+<p>{{repo.description}}</p> -->
