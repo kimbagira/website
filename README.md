@@ -16,6 +16,10 @@ you should clone to get  my code
 
 ## BDD
 
+behaviour
+
+go to the webpage,enter your name
+
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
